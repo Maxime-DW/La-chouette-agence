@@ -136,6 +136,15 @@ a:hover {
     color: rgba(255, 255, 255, .6);
 }
 
+.logoHeader {
+    display: flex;
+}
+
+.logoHeader p {
+    margin: auto;
+    margin-left: 0;
+}
+
 .d-bloc .a-btn:hover,
 .d-bloc .navbar a:hover,
 .d-bloc .navbar-brand:hover,
@@ -295,6 +304,7 @@ a:hover {
 .navbar-brand {
     height: auto;
     padding: 3px 15px;
+    padding-right: 0px;
     font-size: 25px;
     font-weight: normal;
     font-weight: 600;
