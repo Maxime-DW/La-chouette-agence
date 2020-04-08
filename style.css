@@ -1061,4 +1061,12 @@ h4 {
     .img-responsive {
         display: inline;
     }
+    .navbar-header {
+        display: flex;
+        justify-content: space-between;
+    }
+    #nav-toggle {
+        margin: auto;
+        margin-right: 10px;
+    }
 }
