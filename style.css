@@ -397,6 +397,9 @@ q {
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
     }
+    .logoHeader {
+        margin-left: 16px;
+    }
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
         color: #484848;
@@ -935,6 +938,9 @@ h4 {
         padding-top: 0;
         border-top: 1px solid rgba(0, 0, 0, .2);
         float: none!important;
+    }
+    .logoHeader {
+        margin-left: 15px;
     }
     .navbar.row {
         margin-left: 0;
