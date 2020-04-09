@@ -22,6 +22,10 @@ blockquote {
     border: none;
 }
 
+address {
+    color: #575757;
+}
+
 q {
     quotes: "“" "”";
     font-style: italic;
