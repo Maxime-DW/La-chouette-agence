@@ -33,10 +33,10 @@
 				<div class="container bloc-sm">
 					<nav class="navbar row">
 						<div class="navbar-header">
-							<div class="logoHeader">
+							<a href="https://maxime-dw.github.io/la-chouette-agence/"><div class="logoHeader">
 								<img src="img/la-chouette-agence.png" alt="Logo la chouette agence" />
 								<p>La chouette agence</p>
-							</div>
+							</div></a>
 							<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 								<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 							</button>
@@ -44,7 +44,7 @@
 						<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 							<ul class="site-navigation nav navbar-nav">
 								<li>
-									<a href="index.html">Accueil</a>
+									<a href="https://maxime-dw.github.io/la-chouette-agence/">Accueil</a>
 								</li>
 								<li>
 									<a href=#metiers>Nos métiers</a>
@@ -159,7 +159,7 @@
 					</div>
 					<div class="row tight-width-whitespace portfolio-row">
 						<div class="col-sm-6">
-							<a href="#" data-lightbox="img/1.jpg" data-gallery-id="gallery-1" data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb"><img src="img/1.jpg" alt="Refonte d'un site web pour un journal local" class="img-responsive portfolio-thumb" /></a>
+							<a data-lightbox="img/1.jpg" data-gallery-id="gallery-1" data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb"><img src="img/1.jpg" alt="Refonte d'un site web pour un journal local" class="img-responsive portfolio-thumb" /></a>
 							<h3 class="mg-md text-center">
 								Refonte d'un site web pour un journal local
 							</h3>
@@ -168,7 +168,7 @@
 							</p>
 						</div>
 						<div class="col-sm-6">
-							<a href="#" data-lightbox="img/2.jpg" data-gallery-id="gallery-1" data-caption="Création d'un site web pour photographes" data-frame="snapshot-lb"><img src="img/2.jpg" class="img-responsive portfolio-thumb" alt="Création d'un site web pour photographes" /></a>
+							<a data-lightbox="img/2.jpg" data-gallery-id="gallery-1" data-caption="Création d'un site web pour photographes" data-frame="snapshot-lb"><img src="img/2.jpg" class="img-responsive portfolio-thumb" alt="Création d'un site web pour photographes" /></a>
 							<h3 class="mg-md text-center">
 								Création d'un site web pour photographes
 							</h3>
@@ -179,7 +179,7 @@
 					</div>
 					<div class="row tight-width-whitespace portfolio-row">
 						<div class="col-sm-6">
-							<a href="#" data-lightbox="img/3.jpg" data-gallery-id="gallery-1" data-caption="Création d'un site internet pour un voyageur" data-frame="snapshot-lb"><img src="img/3.jpg" class="img-responsive portfolio-thumb" alt="Création d'un site web pour voyageur"/></a>
+							<a data-lightbox="img/3.jpg" data-gallery-id="gallery-1" data-caption="Création d'un site internet pour un voyageur" data-frame="snapshot-lb"><img src="img/3.jpg" class="img-responsive portfolio-thumb" alt="Création d'un site web pour voyageur"/></a>
 							<h3 class="mg-md text-center">
 								Création d'un site internet pour un voyageur
 							</h3>
@@ -188,7 +188,7 @@
 							</p>
 						</div>
 						<div class="col-sm-6">
-							<a href="#" data-lightbox="img/4.jpg" data-gallery-id="gallery-1" data-caption="Conception d'un site pour une agence de mariage" data-frame="snapshot-lb"><img src="img/4.jpg" class="img-responsive portfolio-thumb" alt="Création d'un site web pour agence de mariage" /></a>
+							<a data-lightbox="img/4.jpg" data-gallery-id="gallery-1" data-caption="Conception d'un site pour une agence de mariage" data-frame="snapshot-lb"><img src="img/4.jpg" class="img-responsive portfolio-thumb" alt="Création d'un site web pour agence de mariage" /></a>
 							<h3 class="mg-md text-center">
 								Conception d'un site pour une agence de mariage
 							</h3>
@@ -245,7 +245,12 @@
 									</p>
 									<p class="form-group">
 										<label for="information">Comment nous avez-vous connu ?</label>
-										<input class="form-control"  id="information" name="information" type="text" required />
+										<select class="form-control"  id="information" name="information">
+											<option value="publicite">Publicité</option>
+											<option value="sur-internet" selected>Sur internet</option>
+											<option value="bouche-a-oreille">Bouche à oreille</option>
+											<option value="autre">Autre</option>
+										</select>
 									</p>
 									<p class="form-group">
 										<label for="message">Brief de votre projet (Ajoutez autant de détails que nécessaire)<br></label>
@@ -258,15 +263,14 @@
 								<address class="text-center">
 									contact@lachouetteagence.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
 								</address>
+								<div class="text-center">
+									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2783.083137365212!2d4.827978615520129!3d45.76952407910578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4eb020f3664e9%3A0x13e3d71752922c1f!2s2%20Place%20Sathonay%2C%2069001%20Lyon!5e0!3m2!1sfr!2sfr!4v1569952805520!5m2!1sfr!2sfr" aria-label="Carte Map : 2 place sathonay 69001 lyon"></iframe>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 				<!-- bloc-7 END -->
-
-				<!-- ScrollToTop Button -->
-				<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
-				<!-- ScrollToTop Button END-->
 			</section>
 			<!-- bloc-5-cta END -->
 
@@ -281,22 +285,22 @@
 							<div class="row row-no-gutters social">
 								<div class="col-sm-3">
 									<div class="text-center">
-										<a class="social" href="#"><span class="fa fa-twitter icon-md"></span></a>
+										<a class="social" href="https://twitter.com/"><span class="fa fa-twitter icon-md"></span></a>
 									</div>
 								</div>
 								<div class="col-sm-3">
 									<div class="text-center">
-										<a class="social" href="#"><span class="fa fa-facebook icon-md"></span></a>
+										<a class="social" href="https://fr-fr.facebook.com/"><span class="fa fa-facebook icon-md"></span></a>
 									</div>
 								</div>
 								<div class="col-sm-3">
 									<div class="text-center">
-										<a class="social" href="#"><span class="fa fa-dribbble icon-md"></span></a>
+										<a class="social" href="https://dribbble.com/"><span class="fa fa-dribbble icon-md"></span></a>
 									</div>
 								</div>
 								<div class="col-sm-3">
 									<div class="text-center">
-										<a class="social" href="#"><span class="fa fa-instagram icon-md"></span></a>
+										<a class="social" href="https://www.instagram.com/?hl=fr"><span class="fa fa-instagram icon-md"></span></a>
 									</div>
 								</div>
 							</div>
@@ -306,6 +310,9 @@
 			</footer>
 
 		</div>
+		<!-- ScrollToTop Button -->
+		<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
+		<!-- ScrollToTop Button END-->
 		<!-- Principal conteneur END -->
 		<script defer src="./js/min/jquery-2.1.0.min.js"></script>
 		<script defer src="./js/min/bootstrap.min.js"></script>
